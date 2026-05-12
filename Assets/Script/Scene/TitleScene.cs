@@ -12,7 +12,8 @@ public class TitleScene : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    void GoToGamePlay()
+    // ƒV[ƒ“‘JˆÚ
+    public void GoToGamePlay()
     {
         SceneManager.LoadScene("GamePlayScene");
     }
